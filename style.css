@@ -1,0 +1,82 @@
+.container {
+    width: fit-content;
+    padding: 10 20;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.header-table {
+    text-align: center;
+    font-weight: 600;
+    background-color: yellowgreen;
+    width: 100%;
+}
+
+.semibold {
+    font-weight: 600;
+}
+
+.day-in-week {
+    text-align: center;
+
+    width: 100%;
+    text-decoration: underline;
+}
+
+.table {
+    padding: 5;
+    border: 1px solid grey;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.table-content {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    gap: 2px;
+    margin-bottom: 5;
+}
+
+.table-header {
+    padding: 0 5;
+    width: 100;
+    background-color: rgb(203, 221, 167);
+    text-align: center;
+}
+
+.navigation {
+    height: fit-content;
+    display: flex;
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+    margin-top: 20;
+}
+
+.navigation-btn {
+    font-size: 20;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.confirm-btn {
+    cursor: pointer;
+    background-color: azure;
+    padding: 2 3;
+}
+
+.card {
+    padding: 10 5;
+    width: 100;
+    background-color: rgb(222, 230, 207);
+    text-align: center;
+}
+
+.card-title {
+    padding: 7 0;
+    font-weight: 600;
+}

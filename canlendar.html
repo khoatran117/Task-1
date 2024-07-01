@@ -1,0 +1,61 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class ="container">
+        <h2 id="canlender-header" class="header-table">Tháng 7 năm 2024</h2>
+        <h1 id="date-header" class="semibold">1 2</h1>
+        <h1 id="day-week" class="day-in-week semibold">Thứ 4</h1>
+        <div class="table">
+            <div>
+                <div class="table-content">
+                    <div class="table-header" >CN</div>
+                    <div class="table-header">T2</div>
+                    <div class="table-header">T3</div>
+                    <div class="table-header">T4</div>
+                    <div class="table-header">T5</div>
+                    <div class="table-header">T6</div>
+                    <div class="table-header">T7</div>       
+                </div>
+
+                <div id="current-table-canlender"  class="table-content"></div>
+             
+            </div>
+        </div>
+
+        <div class="navigation">
+            <div id="prev-year" class="navigation-btn">«</div>
+            <div id="prev-month" class="navigation-btn">‹</div>
+
+            <select name="days" id="days-select">
+                
+            </select>
+
+            <div class="">/</div>
+
+            <select name="months" id="months-select">
+               
+            </select>
+
+            <div class="">/</div>
+
+            <input type="number" min="1000" max="4000" id="year"/>
+
+            <div id="confirm-button" class="confirm-btn">OK</div>
+
+            <div id="next-month" class="navigation-btn">›</div>
+            <div id="next-year" class="navigation-btn">»</div>
+
+            <div id="reset-date" class="confirm-btn">@</div>
+        </div>
+    </div>
+
+    <div id="day-card" class="card" style=""><div id="date" class="card-title">Day</div>
+
+</body>
+<script  src="function.js"></script>
+</html>
